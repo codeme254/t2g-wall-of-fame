@@ -6,6 +6,8 @@ import Home from "./pages/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
+import Index from "./pages/goodev254/Index";
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
@@ -14,6 +16,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/ogweno" element={<Index />} />
         </Routes>
         <Footer />
       </BrowserRouter>

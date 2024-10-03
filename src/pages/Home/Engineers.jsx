@@ -12,11 +12,11 @@ function Engineer({ name, headshot, excerpt, portfolioUrl, githubUrl }) {
       <img src={headshot} alt={`headshot of ${name}`} />
       <EngineerExcerpt>{excerpt}</EngineerExcerpt>
       <div>
-        <Link>
+        <Link to={portfolioUrl}>
           {" "}
           <FaLink /> <p>portfolio</p>
         </Link>
-        <Link>
+        <Link to={githubUrl}>
           {" "}
           <FaSquareGithub /> <p>github</p>
         </Link>
