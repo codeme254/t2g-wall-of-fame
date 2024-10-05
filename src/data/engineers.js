@@ -1,11 +1,11 @@
 import sampleHeadshotImg from '../assets/sample-headshot.jpg';
-import marynjue from '../pages/MaryNJue.jsx/assets/mary3.jpeg'
+import marynjue from '../assets/mary.jpeg'
 const engineers = [
     {
         headshot: marynjue,
         name: 'Mary Njue',
         excerpt: "A motivated Software Engineer graduate with a passion for web development and problem solving skills. Skilled in HTML, CSS and React. I create efficient, user-freindly solution. Always eager to learn and grow in the tech industry",
-        portfolioUrl: "/",
+        portfolioUrl: "../assets/mary.jpeg",
         githubUrl: "https://github.com/MaryNjue"
     },
     {
