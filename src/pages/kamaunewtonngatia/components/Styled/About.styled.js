@@ -14,11 +14,21 @@ export const StyledDiv = styled.div`
   align-items: center;
   gap: 3rem;
 
+  @media screen and (max-width: 62.5em){
+    flex-direction:column;
+
+    
+  }
+
   p {
     width: 50%;
     letter-spacing: 1px;
     line-height: 1.7;
     text-align: justify;
+
+    @media screen and (max-width: 50em){
+        width: 100%;
+    }
   }
   img {
     width: 50%;
@@ -26,5 +36,9 @@ export const StyledDiv = styled.div`
     object-fit: cover;
     border-radius: 5px;
     overflow: hidden;
+
+    @media screen and (max-width: 50em){
+        width: 100%;
+    }
   }
 `;

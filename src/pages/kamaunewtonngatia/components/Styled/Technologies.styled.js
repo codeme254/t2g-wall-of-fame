@@ -23,6 +23,6 @@ export const StyledContainer = styled.section`
 export const StyledOverallContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
-  gap: 4rem;
+  gap: 6rem;
   justify-content: center;
 `;

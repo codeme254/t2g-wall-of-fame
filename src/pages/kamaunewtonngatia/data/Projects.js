@@ -29,3 +29,4 @@ const projects = [
       "RockPaperScissors is a fun and interactive web-based game that challenges users to play against the computer using classic rules.",
   },
 ];
+export default projects;
