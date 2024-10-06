@@ -1,4 +1,5 @@
 import sampleHeadshotImg from '../assets/sample-headshot.jpg';
+import mypic from "../assets/gitau.jpeg";
 const engineers = [
     {
         headshot: sampleHeadshotImg,
@@ -42,5 +43,13 @@ const engineers = [
         portfolioUrl: "/",
         githubUrl: "https://github.com/codeme254"
     },
+
+    {
+        name: "Gitau Grace",
+        headshot: mypic, // Import your headshot image
+        excerpt: "A short excerpt (40-50 words) describing yourself briefly.",
+        portfolioUrl: "/gitau", // e.g., '/john'
+        githubUrl: "https://github.com/1Gitau" // Your GitHub URL
+        }
 ]
 export default engineers;

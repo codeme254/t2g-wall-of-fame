@@ -5,6 +5,7 @@ import theme from "./theme/theme";
 import Home from "./pages/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Index from "./pages/1Gitau/Index";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/gitau" element={<Index/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
