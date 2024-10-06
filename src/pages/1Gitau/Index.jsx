@@ -2,7 +2,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import React from "react";
 import Hero from "./components/Hero/hero";
 import About from "./components/About/About";
-// import Skills from "./components/skills/skills";
+import Skills from "./components/skills/skills";
 
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact"
@@ -15,7 +15,7 @@ function Index() {
     <React.Fragment>
       <Hero />
       <About/>
-      {/* <Skills/> */}
+      <Skills/>
       <Projects />
       <Contact/>
     </React.Fragment>

@@ -5,6 +5,7 @@ export const CardDescription = styled.p`
   font-size: 1.5rem;
   line-height: 1.5;
   margin-bottom: 20px;
+  padding: 10px;
 `;
 export const ProjectContainer = styled.div`
   align-items: center;
