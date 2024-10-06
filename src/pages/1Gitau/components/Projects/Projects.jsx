@@ -17,7 +17,7 @@ function Project() {
           <CardDescription>
             This project involves user input, random selection for the
             computer's choice, and logic to determine the winner based on rules.
-            It’s great for learning control flow and randomization.
+            It is great for learning control flow and randomization.
           </CardDescription>
           <ViewLink
             to="https://1gitau.github.io/rock-paper-scissors-game/

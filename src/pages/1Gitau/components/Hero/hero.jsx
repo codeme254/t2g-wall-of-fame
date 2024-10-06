@@ -4,6 +4,7 @@ import { StyledHero, StyledText, ImageContainer } from "../Styled/Hero";
 function Hero() {
   return (
     <StyledHero>
+      {/* <HeroTitle>Hero</HeroTitle> */}
       <StyledText>
         <h2>Hi, I'm Grace Gitau</h2>
         <p>
@@ -15,7 +16,7 @@ function Hero() {
         </p>
       </StyledText>
       <ImageContainer>
-        <img src={HeroImg} alt="moses" />
+        <img src={HeroImg} alt="wanjiru" />
       </ImageContainer>
     </StyledHero>
   );
