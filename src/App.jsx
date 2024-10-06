@@ -5,6 +5,7 @@ import theme from "./theme/theme";
 import Home from "./pages/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Codesamorai from "./pages/Davis-don/Codesamorai";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/codesamurai" element={<Codesamorai/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
