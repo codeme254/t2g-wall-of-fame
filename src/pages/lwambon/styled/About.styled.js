@@ -15,21 +15,26 @@ const AboutContent = styled.div`
     margin: 2rem;
     width: 100%;
     p {
-      width: 58%;
-      line-height: 1.9;
+      width: 70rem;
+      line-height: 2.2;
       box-shadow: 0 0 2rem;
       padding: 2.4rem;
       font-size: 1.4rem;
+    }
+    @media screen and (max-width: 47.75rem) {
+      p {
+        width: 100%;
+      }
     }
   }
   .image-about {
     align-items: center;
 
     img {
-      width: 29rem;
+      width: 30rem;
       align-items: center;
       margin-left: 8rem;
-      border-radius: 50rem;
+      border-radius: 1rem;
       box-shadow: 0 0 4rem;
     }
   }

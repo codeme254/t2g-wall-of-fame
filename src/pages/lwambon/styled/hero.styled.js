@@ -27,7 +27,7 @@ const HeroStyled = styled.div`
   }
 
   .hero-content-area h2 span {
-    color: #007bff;
+    color: purple;
   }
 
   .hero-content-area p {
