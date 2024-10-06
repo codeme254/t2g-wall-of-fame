@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import { FaLink } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
-import { EngineerCard, EngineerExcerpt, EngineersCardsContainer } from "./styled/Engineers.styled";
+import {
+  EngineerCard,
+  EngineerExcerpt,
+  EngineersCardsContainer,
+} from "./styled/Engineers.styled";
 import sampleHeadshot from "../../assets/sample-headshot.jpg";
 import engineers from "../../data/engineers";
 
@@ -28,9 +32,16 @@ function Engineer({ name, headshot, excerpt, portfolioUrl, githubUrl }) {
 function Engineers() {
   return (
     <EngineersCardsContainer>
-      {
-        engineers.map((engineer, i) => <Engineer name={engineer.name} headshot={engineer.headshot} excerpt={engineer.excerpt} portfolioUrl={engineer.portfolioUrl} githubUrl={engineer.githubUrl} key={i} />)
-      }
+      {engineers.map((engineer, i) => (
+        <Engineer
+          name={engineer.name}
+          headshot={engineer.headshot}
+          excerpt={engineer.excerpt}
+          portfolioUrl={engineer.portfolioUrl}
+          githubUrl={engineer.githubUrl}
+          key={i}
+        />
+      ))}
     </EngineersCardsContainer>
   );
 }

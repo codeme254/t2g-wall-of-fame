@@ -26,12 +26,6 @@
 
 // `;
 
-
-
-
-
-
-
 import styled from "styled-components";
 
 export const StyledHero = styled.div`
@@ -64,5 +58,3 @@ export const ImageContainer = styled.div`
     border-radius: 10px;
   }
 `;
-
-

@@ -12,7 +12,6 @@ function Project() {
     <ProjectContainer>
       <h2>Projects</h2>
       <CardContainer>
-       
         <Card>
           <CardHeading>Rock Paper Scissor Game</CardHeading>
           <CardDescription>
@@ -20,8 +19,10 @@ function Project() {
             computer's choice, and logic to determine the winner based on rules.
             It’s great for learning control flow and randomization.
           </CardDescription>
-          <ViewLink to="https://1gitau.github.io/rock-paper-scissors-game/
-">
+          <ViewLink
+            to="https://1gitau.github.io/rock-paper-scissors-game/
+"
+          >
             View
           </ViewLink>
         </Card>
@@ -32,7 +33,9 @@ function Project() {
             that allows users to manage tasks with basic CRUD functionality. It
             showcases essential front-end development skills.
           </CardDescription>
-          <ViewLink to="https://github.com/1Gitau/todolist/settings/pages">View</ViewLink>
+          <ViewLink to="https://github.com/1Gitau/todolist/settings/pages">
+            View
+          </ViewLink>
         </Card>
         <Card>
           <CardHeading>GitBlog</CardHeading>
@@ -43,7 +46,7 @@ function Project() {
           </CardDescription>
           <ViewLink to=" https://1gitau.github.io/everyday-git/">View</ViewLink>
         </Card>
-        
+
         <Card>
           <CardHeading>Haven Apartment</CardHeading>
           <CardDescription>
@@ -63,9 +66,7 @@ function Project() {
             structuring content, navigation, and possibly using front-end
             technologies like HTML, CSS, and JavaScript.
           </CardDescription>
-          <ViewLink to=" https://techies-club-99yz.vercel.app/">
-            View
-          </ViewLink>
+          <ViewLink to=" https://techies-club-99yz.vercel.app/">View</ViewLink>
         </Card>
       </CardContainer>
     </ProjectContainer>

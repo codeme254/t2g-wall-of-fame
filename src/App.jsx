@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/gitau" element={<Index/>} />
+          <Route path="/gitau" element={<Index />} />
         </Routes>
         <Footer />
       </BrowserRouter>

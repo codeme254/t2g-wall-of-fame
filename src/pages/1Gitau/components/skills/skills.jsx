@@ -27,7 +27,7 @@
 //         <Card>
 //           <CardImage src={softImg} alt="soft skills image" />
 //           <CardText>
-//             In addition to my technical expertise, I have worked on improving my
+//              I have worked on improving my
 //             soft skills through mock interviews and collaboration. These
 //             experiences have strengthened my communication and teamwork
 //             abilities, which are crucial in software development.
@@ -37,7 +37,7 @@
 //           <CardImage src={gitImg} alt="git image" />
 //           <CardText>
 //             I have experience in working with version control systems like Git
-//             and GitHub, where I collaborate on projects, manage codebases, and
+//             and GitHub, manage codebases, and
 //             handle tasks such as branching, merging, and resolving conflicts.
 //           </CardText>
 //         </Card>

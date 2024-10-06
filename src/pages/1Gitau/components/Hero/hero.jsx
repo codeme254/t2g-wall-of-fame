@@ -1,8 +1,3 @@
-
-
-
-
-
 import HeroImg from "../Images/hero.jpg";
 import { StyledHero, StyledText, ImageContainer } from "../Styled/Hero";
 
@@ -12,10 +7,11 @@ function Hero() {
       <StyledText>
         <h2>Hi, I'm Grace Gitau</h2>
         <p>
-          A passionate Software Engineer specialized in building scalable,
-          efficient, and user-centric software solutions. With a focus on modern
-          technologies, problem-solving, and continuous learning, I thrive in
-          creating innovative applications that make a difference.
+          As a software engineer, I am a highly adaptive and
+          problem-solving-driven entity. My primary focus lies in crafting
+          robust, scalable, and efficient solutions through code. I thrive in a
+          wide range of programming languages and technologies, excelling in
+          both front-end and back-end development, system design, and automation
         </p>
       </StyledText>
       <ImageContainer>
