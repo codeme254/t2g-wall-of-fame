@@ -1,63 +1,21 @@
 import React from "react";
-import styled from "styled-components";
 import { FaHtml5 } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
-import {FaCss3Alt } from "react-icons/fa";
-import { FaJs, } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { FaGit} from "react-icons/fa";
+import { FaGit } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-
-
-const StyledTechnologies = styled.div`
-  background: linear-gradient(to right, #a652c4, #d874a9);
-  padding: 2rem;
-  text-align: center;
-  color: white;
-
-  h1{
-  text-transform:capitalize;
-  color:black;
-  }
-`;
-
-const TechContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; 
-  margin: 2rem 0;
-`;
-
-const TechCard = styled.div`
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  padding: 3rem; 
-  margin: 1rem;
-  width: calc(25% - 2rem); 
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s;
-
-  &:hover {
-    transform: scale(1.05);
-  }
-
-  h3 {
-    margin-top: 10px;
-  }
-
-  @media (max-width: 768px) {
-    width: calc(50% - 2rem); 
-  }
-
-  @media (max-width: 480px) {
-    width: 100%; 
-  }
-`;
+import { IoLogoPython } from "react-icons/io5";
+import {
+  StyledTechnologies,
+  TechContainer,
+  TechCard,
+} from "../styled/Technologies.styled";
 
 function Technologies() {
   return (
-    <StyledTechnologies>
+    <StyledTechnologies id="technologies">
       <h1>Technologies I Use</h1>
       <TechContainer>
         <TechCard>
@@ -68,7 +26,10 @@ function Technologies() {
         <TechCard>
           <FaCss3Alt size={50} color="#1572B6" />
           <h3>CSS3</h3>
-          <p>Style sheet language used for describing the presentation of a document.</p>
+          <p>
+            Style sheet language used for describing the presentation of a
+            document.
+          </p>
         </TechCard>
         <TechCard>
           <FaJs size={50} color="#F7DF1E" />
@@ -88,11 +49,18 @@ function Technologies() {
         <TechCard>
           <SiVite size={50} color="#646CFF" />
           <h3>Vite.js</h3>
-          <p>A fast build tool and development server for modern web projects.</p>
+          <p>
+            A fast build tool and development server for modern web projects.
+          </p>
         </TechCard>
         <TechCard>
           <FaGit size={50} color="#F05032" />
           <h3>Git</h3>
+          <p>A version control system for tracking changes in code.</p>
+        </TechCard>
+        <TechCard>
+          <IoLogoPython size={50} color="yellow" />
+          <h3>Python</h3>
           <p>A version control system for tracking changes in code.</p>
         </TechCard>
       </TechContainer>
@@ -101,5 +69,3 @@ function Technologies() {
 }
 
 export default Technologies;
-
-
