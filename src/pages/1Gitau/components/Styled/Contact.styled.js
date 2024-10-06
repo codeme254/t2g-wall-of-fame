@@ -5,8 +5,26 @@ export const ContactsContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
+  /* background-color: crimson; */
+  /* border: 1px solid green; */
+  /* padding: 2rem; */
+  /* margin: auto; */
 `;
 
+
+
+export const Title = styled.h2`
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: blue;
+`;
+
+export const ContactInfo = styled.h4`
+  font-size: 2rem;
+  margin: 10px 0;
+  color: blue;
+
+`;
 export const ContactCard = styled.div`
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -14,16 +32,6 @@ export const ContactCard = styled.div`
   padding: 30px;
   width: 350px;
   text-align: center;
-`;
-
-export const Title = styled.h2`
-  margin-bottom: 20px;
-  font-size: 2rem;
-`;
-
-export const ContactInfo = styled.h4`
-  font-size: 2rem;
-  margin: 10px 0;
 `;
 
 export const SocialIcons = styled.div`
