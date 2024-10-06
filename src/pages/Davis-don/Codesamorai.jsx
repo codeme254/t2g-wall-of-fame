@@ -1,11 +1,11 @@
 import React from 'react'
+import Hero from './Components/Hero/Hero'
 
 function Codesamorai() {
   return (
     <div className='ovearall-code-samurai'>
-        <div className="hero-section-overall-container">
-            <h1>Hero section</h1>
-        </div>
+        <Hero/>
+        
         <div className="about-me-overall-container">
 
         </div>
@@ -13,7 +13,7 @@ function Codesamorai() {
 
         </div>
         <div className="contact-me-ovearall-container">
-            
+
         </div>
         
         </div>
