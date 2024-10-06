@@ -12,8 +12,7 @@ function About() {
     <AboutContainer>
       <AboutHeading>About Me</AboutHeading>
       <AboutContent>
-        <AboutImage src={graduatioImg} alt="gitau photo" />
-
+       
         <AboutText>
           I am a software engineer with a BSc in IT from Murang'a University,
           where I recently graduated. I have a strong passion for
@@ -24,6 +23,9 @@ function About() {
           skills, I have worked on improving my soft skills through mock
           interviews and collaborative sessions.
         </AboutText>
+
+        <AboutImage src={graduatioImg} alt="gitau photo" />
+
       </AboutContent>
     </AboutContainer>
   );

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  width: 80%;
+  width: 60%;
   margin: 10rem auto;
 `;
 
@@ -23,13 +23,13 @@ export const AboutText = styled.p`
   flex: 1;
   line-height: 1.8;
   text-align: justify;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  padding: 3rem;
 `;
 
 export const AboutImage = styled.img`
-  width: 30rem;
+  width: 20rem;
   height: auto;
-  border-radius: 10px;
+  border-radius: 100px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 `;

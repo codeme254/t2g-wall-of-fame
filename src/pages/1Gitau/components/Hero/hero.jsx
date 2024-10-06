@@ -1,4 +1,4 @@
-import HeroImg from "../Images/hero.jpg";
+import HeroImg from "../Images/gitau.jpg";
 import { StyledHero, StyledText, ImageContainer } from "../Styled/Hero";
 
 function Hero() {
