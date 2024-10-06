@@ -16,17 +16,13 @@ function About() {
 
         <AboutText>
           I am a software engineer with a BSc in IT from Murang'a University,
-          where I recently graduated. I have a strong passion for software
-          development, having developed skills in JavaScript, HTML, and CSS. My
+          where I recently graduated. I have a strong passion for
+          having developed skills in JavaScript, HTML, and CSS. My
           expertise includes building interactive websites, such as a recent
           project for Murang'a University Tech Club, where I am designing pages
-          using React. I also have a background in data annotation and
-          disability services from a previous role. In addition to my technical
+          using React.  In addition to my technical
           skills, I have worked on improving my soft skills through mock
-          interviews and collaborative sessions. I also maintain a deep interest
-          in motorsports, particularly Formula 1. My work schedule is flexible,
-          allowing me to dedicate significant time to projects during evenings
-          and nights.
+          interviews and collaborative sessions.
         </AboutText>
       </AboutContent>
     </AboutContainer>
