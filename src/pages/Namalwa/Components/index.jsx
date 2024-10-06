@@ -5,7 +5,6 @@ import About from './About'
 import Technologies from './Technologies'
 import Projects from './Projects'
 import Contact from './Contact'
-import Footer from'./Footer'
 
 function Walloffame() {
     return (
@@ -17,7 +16,6 @@ function Walloffame() {
      <Technologies/>
      <Projects/>
      <Contact/>
-     <Footer/>
      </>
     );
   }
