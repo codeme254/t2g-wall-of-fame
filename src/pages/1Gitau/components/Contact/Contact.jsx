@@ -7,7 +7,7 @@ import {ContactsContainer,ContactCard,Title,ContactInfo,SocialIcons,} from "../S
 
 function Contacts() {
   const handleTwitterLink = () => {
-    // window.open("https://x.com/gitau_N", "_blank", "noopener,noreferrer");
+
   };
 
   return (

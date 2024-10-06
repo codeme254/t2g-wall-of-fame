@@ -4,11 +4,15 @@ export const ContactsContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  /* background-color: crimson; */
-  /* border: 1px solid green; */
-  /* padding: 2rem; */
-  /* margin: auto; */
+  margin-top: 5rem;
+  height: 40vh;
+  /* border: 3px solid green; */
+  width: 40%;
+  margin: auto;
+  letter-spacing: .5rem;
+ 
+
+
 `;
 
 
@@ -16,20 +20,22 @@ export const ContactsContainer = styled.div`
 export const Title = styled.h2`
   margin-bottom: 20px;
   font-size: 2rem;
-  color: blue;
+  font-weight: 800;
+  color: black;
+  /* border: 2px solid yellow; */
 `;
 
 export const ContactInfo = styled.h4`
   font-size: 2rem;
   margin: 10px 0;
-  color: blue;
+  color: gray;
 
 `;
 export const ContactCard = styled.div`
   background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(3, 0, 0, 0.9);
+  padding: 20px;
   width: 350px;
   text-align: center;
 `;
@@ -45,8 +51,8 @@ export const SocialIcons = styled.div`
     text-decoration: none;
 
     &:hover {
-      color: #0d8bf2;
-      transition: 0.5s;
+      color: purple;
+      transition: 1.5s;
     }
   }
 `;
