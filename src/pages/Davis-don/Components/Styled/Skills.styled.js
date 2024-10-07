@@ -4,6 +4,8 @@ export const StyledOverallContainer = styled.div`
   height: max-content;
   width: 100%;
   padding:2rem;
+  width:80vw;
+  margin:auto;
 `;
 
 export const SkillsMainTitle = styled.h1 `
@@ -23,7 +25,7 @@ export const SkillsCardOvearallContainer= styled.div`
  @media only screen and (min-width: 18.75em) {
 height:max-content;
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(20rem,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));
   gap:3rem;
 }
 
