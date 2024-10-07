@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const AboutOverallContainer = styled.div`
-// height:max-content;
+ height:max-content;
   background-color: #0A0C22;
-  // display:grid;
-  // grid-template-columns:repeat(auto-fit,minmax(40rem,1fr));
-  display:flex;
-  flex-direction:row;
-  gap:5rem;
+   display:grid;
+   grid-template-columns:repeat(auto-fit,minmax(40rem,1fr));
+  //  display:flex;
+  //  flex-direction:row;
+   gap:5rem;
 
 
   @media only screen and (max-width: 29.375em) {
@@ -19,11 +19,16 @@ export const AboutOverallContainer = styled.div`
 `;
 
 export const StyledLeftSideAbout = styled.div `
-
+width:100%;
+height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
 
 `
 export const StyledAboutImg =styled.img`
 width:100%;
+height:100%;
 object-fit:cover;
 
 `
@@ -41,7 +46,6 @@ color:white;
 `
 
 export const RightsideboutSectionMajor =styled.div `
-
 `
 
 

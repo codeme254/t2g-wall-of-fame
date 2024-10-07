@@ -5,7 +5,7 @@ import ImgDon from '../../Assets/CodeSamurai.jpeg'
 function About() {
   return (
     <AboutOverallContainer className='container-fluid'>
-      <StyledLeftSideAbout>
+     <StyledLeftSideAbout>
      <StyledAboutImg className='container-fluid'  src={ImgDon} alt='image of davis'/>
       </StyledLeftSideAbout>
       <RightsideboutSectionMajor>
@@ -22,6 +22,7 @@ function About() {
           Currently, I work as a freelancer, where I collaborate with clients on innovative projects, delivering high-quality software solutions. My goal is to build impactful and scalable applications that solve real-world problems.
        </RightSideAbout>
       </RightsideboutSectionMajor>
+      
     </AboutOverallContainer>
   )
 }
