@@ -1,6 +1,5 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import  {StyledOverallContainer,SkillsMainTitle,SkillsCardOvearallContainer,StyledCardItem,IconDiv,ProgressContainerStyled}  from '../Styled/Skills.styled'
+import  {StyledOverallContainer,SkillsMainTitle,SkillsCardOvearallContainer,StyledCardItem,IconDiv,ActualIcon,ProgressContainerStyled,Techtype}  from '../Styled/Skills.styled'
 import SkillsData from '../Data/SkillsData';
 
 function Skills() {
@@ -18,14 +17,12 @@ function Skills() {
 
 <StyledCardItem key={index}>
                 <IconDiv className="icon-div">
-                 <h2 className='fs-1 text-danger'> {skill.IconItem}</h2>
+                 <ActualIcon style={{color:skill.color}}> {skill.IconItem}</ActualIcon>
                 </IconDiv>
-                <ProgressContainerStyled >
-                <h4 className='text-light'>{skill.Technology}</h4>
-                <div className="progress">
-  <div className="progress-bar progress-bar-striped progress-bar-animated"  style={{ width: skill.ProgressPercent }}></div>
-</div>
-                </ProgressContainerStyled>
+                 <div className="card-text-box">
+                  <ProgressContainerStyled>{skill.ProgressPercent}</ProgressContainerStyled>
+                  <Techtype>{skill.Technology}</Techtype>
+                 </div>
             </StyledCardItem>
 
 
