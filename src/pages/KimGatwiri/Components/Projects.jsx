@@ -1,6 +1,6 @@
 import React from 'react';
 import { Section, Title, CardsWrapper, Card } from './Stylings/ProjectStyles';
-import RentalImage from '../Assets/Rentals.jpeg'
+
 function Projects() {
   const projects = [
     {

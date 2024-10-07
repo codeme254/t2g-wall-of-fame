@@ -1,7 +1,7 @@
 import React from 'react';
 import { HeroContainer, HeroText, Avatar, ButtonContainer, ContactButton } from './Stylings/HeroStyles';
 import floridaImage from '../../../assets/Florida.jpeg';  
-
+import{Link} from 'react-router-dom'
 const Hero = () => {
     return (
         <HeroContainer>
@@ -12,7 +12,10 @@ const Hero = () => {
                 <p>I specialize in creating stunning user interfaces using React, and have experience working on various projects.</p>
             </HeroText>
             <ButtonContainer>
-                <ContactButton href="#Contact">Connect with Me</ContactButton>
+                <Link to="#Contact">
+               
+                <ContactButton>Connect with Me</ContactButton>
+                </Link>
             </ButtonContainer>
         </HeroContainer>
     );
