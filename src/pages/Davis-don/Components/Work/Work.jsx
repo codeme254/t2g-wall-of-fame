@@ -20,16 +20,15 @@ function Work() {
         <CardMainHeading>{Data.projName}</CardMainHeading>
         <p>{Data.projectDescription}</p>
       </div>
-      <BottomButton type="button">
+     <a style={{color:'white'}} href={Data.githubCodeLink} target="_blank"> <BottomButton type="button">
         <IconSpan>
           <FaGithub style={{fontSize:'2rem',color:'white'}}/>
           </IconSpan>
-        <span style={{padding:'.2rem'}}>
-          <a style={{color:'white'}} href={Data.githubCodeLink} target="_blank" rel="noopener noreferrer">
+        <span style={{padding:'.2rem',color:'white'}}>
             View Code
-          </a>
         </span>
       </BottomButton>
+      </a>
     </ActualCard>
   ))
 }
