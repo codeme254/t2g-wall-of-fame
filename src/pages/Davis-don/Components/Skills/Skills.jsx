@@ -14,6 +14,7 @@ function Skills() {
 
 
     SkillsData.map((skill, index) => (
+      
 
 <StyledCardItem key={index}>
                 <IconDiv className="icon-div">

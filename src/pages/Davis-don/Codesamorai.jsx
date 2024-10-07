@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from './Components/Hero/Hero'
 import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
+import Work from './Components/Work/Work'
+import Contact from './Components/ContactMe/Contact'
 
 function Codesamorai() {
   return (
@@ -9,6 +11,8 @@ function Codesamorai() {
         <Hero/>
         <About/>
         <Skills/>
+        <Work/>
+        <Contact/>
         
         </div>
   )
