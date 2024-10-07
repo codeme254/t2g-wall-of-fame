@@ -22,8 +22,7 @@ function TechnologiesIllustration({ logo, title, description }) {
 function Technologies() {
   return (
     <TechnologiesSection>
-      {/* Add the section title here */}
-      <h1>My Tech Stack & Skills</h1>
+      <h2>My Tech Stack & Skills</h2>
       <p>Tools and technologies I use to build innovative and efficient web solutions.</p>
 
       <TechnologiesContainer>
