@@ -1,13 +1,13 @@
-.title{
-    text-align: center;
+.title {
+  text-align: center;
 }
 
-.main__title{
-    text-transform: uppercase;
-    letter-spacing: 1.7;
-    color: green;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    text-shadow: 0 0 10px;
-    font-size: 3rem;
+.main__title {
+  text-transform: uppercase;
+  letter-spacing: 1.7;
+  color: green;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px;
+  font-size: 3rem;
 }

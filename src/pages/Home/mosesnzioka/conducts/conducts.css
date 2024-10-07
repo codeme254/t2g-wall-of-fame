@@ -1,0 +1,23 @@
+.conducts-container {
+  background: lightgreen;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.contact-item svg {
+  font-size: 24px;
+}
+
+.contact-item p {
+  margin: 0;
+}
