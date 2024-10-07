@@ -9,6 +9,11 @@ export const WorkHeading =styled.h1`
 text-align:center;
 color:white;
 margin-bottom:2rem;
+font-size:4rem;
+
+@media only screen and (max-width: 18.75em) {
+font-size:3rem;
+}
 `
 
 export  const OverallWorkCard = styled.div`

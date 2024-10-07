@@ -8,6 +8,11 @@ export const StyledOverallContainer = styled.div`
 
 export const SkillsMainTitle = styled.h1 `
 text-align:center;
+font-size:4rem;
+
+ @media only screen and (max-width: 18.75em) {
+font-size:3rem;
+}
 `
 
 export const StyledSkillsOvearallContainer= styled.div `
