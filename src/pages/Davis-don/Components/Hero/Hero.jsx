@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import {StyledOverallHeroContainer,StyledHeroTextBox,HeroMainTitle,SmallScreenImageContainer,SmallScreenImageActual,LargeScreenImageContainer,ParagraphItem } from '../Styled/Hero.styled'
 import hero_setup from '../../Assets/hero_setup.avif'
 
