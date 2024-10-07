@@ -1,4 +1,6 @@
 import "./projects.css";
+import { Link } from "react-router-dom";
+
 import Title from "../title/title";
 function Projectcard({ projecttitle, projectdescription }) {
   return (
@@ -6,7 +8,11 @@ function Projectcard({ projecttitle, projectdescription }) {
       <div className="project-body">
         <h3 className="project-card-title">{projecttitle}</h3>
         <h4 className="project-description">{projectdescription}</h4>
-        <a className="see-project" href="#">
+        <a
+          className="see-project"
+          target="_blank"
+          href="https:Github.com/mosesnzioka"
+        >
           see the project
         </a>
       </div>
