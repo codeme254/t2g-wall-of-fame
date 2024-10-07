@@ -15,10 +15,10 @@ const Contact = () => {
         <strong>Name:</strong> Charles Kinyanjui
       </ContactItem>
       <ContactItem>
-        <strong>Phone:</strong> +254 793745590
+        <strong>Phone:</strong> +254 793 745 590
       </ContactItem>
       <ContactItem>
-        <strong>Email:</strong> kinyanjuicharlesm.com
+        <strong>Email:</strong> kinyanjuicharlesm@gmail.com
       </ContactItem>
       <ContactItem>
         <strong>Location:</strong> Nairobi, Kenya

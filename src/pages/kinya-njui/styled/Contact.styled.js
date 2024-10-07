@@ -5,7 +5,7 @@ export const ContactCardContainer = styled.div`
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10rem;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
 `;
