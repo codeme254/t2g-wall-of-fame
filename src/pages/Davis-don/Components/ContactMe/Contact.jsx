@@ -1,9 +1,6 @@
 import React from 'react'
-import {OvearallContactUsContainer, ContactUsMainHeading,Contactparagraph,CardsContactHolder,LeftSideStyledSection,ContactDetailsOvearall,ContactIconContainer,RightSideStyledSection,ContactText,SubmitBtn} from '../Styled/Contact.styled'
-import { FaPhone,FaWhatsapp  } from "react-icons/fa";
-import { CiMail } from "react-icons/ci";
+import {OvearallContactUsContainer, ContactUsMainHeading,Contactparagraph,CardsContactHolder,LeftSideStyledSection,ContactDetailsOvearall,ContactIconContainer,RightSideStyledSection,ContactForm,ContactText,SubmitBtn} from '../Styled/Contact.styled'
 import ContactData from '../Data/ContactData';
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 function  Contact() {
   return (
@@ -24,14 +21,14 @@ function  Contact() {
     return (
       <ContactDetailsOvearall key={index}>
         <ContactIconContainer>
-          <h1 className='text-light'>{contactData.iconValue}</h1>
+          <h1 style={{color:'blue',fontSize:'4rem'}}>{contactData.iconValue}</h1>
         </ContactIconContainer>
         <ContactText>
           <div className="left-text">
             <h1 className='text-light'>{contactData.SocialName}</h1>
           </div>
           <div className="right-text">
-            <h2 className='text-light'>{contactData.ContactDetail}</h2>
+            <p className='text-light'>{contactData.ContactDetail}</p>
           </div>
         </ContactText>
       </ContactDetailsOvearall>
@@ -48,16 +45,28 @@ function  Contact() {
 
 
         <RightSideStyledSection>
-          <h1 style={{color:'white'}}>Message Me</h1>
-          <form style={{width:"30rem"}}>
+          <h1 style={{color:'white',textAlign:'center'}}>Message Me</h1>
+          <ContactForm >
+            <div>
             <label style={{color:'white'}} for='fullName'>Full Names</label><br/>
-            <input style={{width:'100%'}} id='fullName'placeholder='full names'/><br/>
+            <input style={{width:'100%'}}  id='fullName'placeholder='full names'/><br/>
+            </div>
+            <div>
             <label style={{color:'white'}} for='email'>Email</label><br/>
-            <input style={{width:'100%'}} id='email'placeholder='full names'/><br/>
+            <input style={{width:'100%'}}  id='email'placeholder='full names'/><br/>
+            </div>
+            <div>
             <label style={{color:'white'}} for='message'>Message</label><br/>
             <textarea style={{width:'100%'}} id='message' placeholder='comment'/><br/>
+            </div>
+            <div>
             <SubmitBtn type='submit'> Submit</SubmitBtn>
-          </form>
+            </div>
+            
+     
+          
+            
+          </ContactForm>
         </RightSideStyledSection>
         </CardsContactHolder>
       

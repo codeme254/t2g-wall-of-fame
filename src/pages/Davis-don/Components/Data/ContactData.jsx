@@ -5,7 +5,7 @@ const ContactData = [
     {
         iconValue:<FaPhone/>,
         SocialName:"Call",
-        ContactDetail:"758420860"
+        ContactDetail:"0758420860"
     },
     {
         iconValue:<FaWhatsapp/>,
@@ -14,8 +14,8 @@ const ContactData = [
     },
     {
         iconValue:<CiMail/>,
-        SocialName:"email",
-        ContactDetail:"davismugoikou@gmail.con"
+        SocialName:"Email",
+        ContactDetail:"davismugoikou@gmail.com"
     }
 ]
 
