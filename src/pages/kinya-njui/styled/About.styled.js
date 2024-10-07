@@ -27,7 +27,7 @@ export const AboutText = styled.div`
 
   p {
     font-size: 2rem;
-    line-height: 1.6; /* Adjusted line height for spacing */
+    line-height: 1.6;
     color: #555;
   }
 `;
