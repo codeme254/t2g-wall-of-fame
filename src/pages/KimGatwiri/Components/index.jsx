@@ -10,7 +10,7 @@ import Contact from "./contact.jsx";
 
 import styled from "styled-components";
 
-function WallOfFame() {
+function Portfolio() {
   return (
     <>
       <Navigation />
@@ -24,4 +24,4 @@ function WallOfFame() {
   );
 }
 
-export default WallOfFame;
+export default Portfolio;

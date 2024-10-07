@@ -5,7 +5,7 @@ import theme from "./theme/theme";
 import Home from "./pages/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import WallOfFame from "./pages/KimGatwiri/Components/index";
+import Portfolio from "./pages/KimGatwiri/Components/index";
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/KimGatwiri" element={<WallOfFame />} />
+          <Route path="/KimGatwiri" element={<Portfolio />} />
         </Routes>
         <Footer />
       </BrowserRouter>
