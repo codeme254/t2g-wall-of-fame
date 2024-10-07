@@ -5,22 +5,20 @@ import theme from "./theme/theme";
 import Home from "./pages/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import WallOfFame from './pages/KimGatwiri/Components/index';
-import Navigation from "./pages/KimGatwiri/Components/Navigation";
+import WallOfFame from "./pages/KimGatwiri/Components/index";
+
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <BrowserRouter>
-        {/* <Header /> */}
+        <Header />
         <Routes>
-          
           <Route path="/" element={<Home />} />
-          <Route path="/KimGatwiri" element={<WallOfFame  />} />
-
+          <Route path="/KimGatwiri" element={<WallOfFame />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </ThemeProvider>
   );

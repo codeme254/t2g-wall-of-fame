@@ -1,11 +1,18 @@
-import React from 'react';
-import { Section, Title, ContactInfo, FormWrapper, FormField, SubmitButton } from './Stylings/ContactStyles';
+import React from "react";
+import {
+  Section,
+  Title,
+  ContactInfo,
+  FormWrapper,
+  FormField,
+  SubmitButton,
+} from "./Stylings/ContactStyles";
 
 function Contact() {
   return (
     <Section id="Contact">
       <Title>Get in Touch</Title>
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         <ContactInfo>
           <h3>Let's Talk</h3>
           <p>I'm based in Murang'a ,Kenya</p>
@@ -17,15 +24,33 @@ function Contact() {
           <form>
             <FormField>
               <label htmlFor="name">Your Name:</label>
-              <input type="text" id="name" name="name" autoComplete="name" required />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autoComplete="name"
+                required
+              />
             </FormField>
             <FormField>
               <label htmlFor="email">Your Email:</label>
-              <input type="email" id="email" name="email" autoComplete="email" required />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autoComplete="email"
+                required
+              />
             </FormField>
             <FormField>
               <label htmlFor="message">Write something:</label>
-              <textarea id="message" name="message" rows="4" autoComplete="off" required></textarea>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                autoComplete="off"
+                required
+              ></textarea>
             </FormField>
             <SubmitButton type="submit">Submit</SubmitButton>
           </form>
