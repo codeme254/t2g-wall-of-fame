@@ -8,6 +8,8 @@ export const ContactCardContainer = styled.div`
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+  box-shadow: 1rem 1rem grey;
+  margin: 5rem auto;
 `;
 
 export const ContactTitle = styled.h2`

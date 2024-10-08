@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export const ProjectSection = styled.section`
   padding: 2rem;
   background-color: #f9f9f9;
+  margin: 2rem auto;
 `;
 
 export const Title = styled.h2`
@@ -22,7 +23,7 @@ export const ProjectContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3rem; // Adjust the gap as needed
+  gap: 3rem; 
 `;
 
 export const ProjectCard = styled.div`
